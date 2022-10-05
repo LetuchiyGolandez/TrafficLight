@@ -8,12 +8,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet var redSquareView: UIView!
+    @IBOutlet var yellowSquareView: UIView!
+    @IBOutlet var greenSquareView: UIView!
+    
+    @IBOutlet var showTextButton: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func startButton(_ sender: Any) {
+    }
+    
 }
 
